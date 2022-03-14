@@ -1,45 +1,42 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
+    <div
+      className={`
+      bg-blue-200 min-h-screen flex flex-col justify-center items-center
+    `}
+    >
+      <div
+        className={`
+          flex flex-col justify-center items-center
+          bg-white p-5 m-7 rounded-xl shadow-md
+          sm:w-96
+          xl:w-96
+        `}
+      >
+        <img
+          src="../images/image-qr-code.png"
+          alt="qr code image"
+          className={`
+          rounded-xl w-90 h-90
+          `}
+        />
+        <p className={`text-xl font-bold pt-4 font-outfit text-center`}>
+          Improve your front-end skills by building projects
         </p>
-        <p>
-          Edit <code>App.tsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
+        <span
+          className={`text-md font-outfit flex-wrap text-center text-gray-500`}
+        >
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </span>
+        <div className="text-xs pt-3 text-gray-500 text-center">
+          Challenge by Frontend Mentor . Coded by{" "}
+          <a href="#" className="text-blue-500 text-center">
+            {"Saullo Almeida"}
           </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
+          .
+        </div>
+      </div>
     </div>
-  )
+  );
 }
-
-export default App

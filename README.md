@@ -6,6 +6,8 @@
   </a>
 </p>
 
+![project-screen](https://github.com/saulloalmeida/qr-code-component-fm/blob/master/screen.png?raw=true)
+
 > QR code component challenge frontend mentor site
 
 ### 🏠 [Homepage](https://qr-code-component-fm-three.vercel.app/)

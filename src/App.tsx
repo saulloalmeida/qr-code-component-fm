@@ -1,4 +1,3 @@
-import qrcodeImage from "../images/image-qr-code.png";
 export default function App() {
   return (
     <div
@@ -15,7 +14,7 @@ export default function App() {
         `}
       >
         <img
-          src={qrcodeImage}
+          src="../assets/img/image-qr-code.png"
           alt="qr code image"
           className={`
           rounded-xl w-90 h-90

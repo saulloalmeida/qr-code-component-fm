@@ -8,9 +8,9 @@
 
 > QR code component challenge frontend mentor site
 
-### 🏠 [Homepage](.)
+### 🏠 [Homepage](https://qr-code-component-fm-three.vercel.app/)
 
-### ✨ [Demo](.)
+### ✨ [Demo](https://qr-code-component-fm-three.vercel.app/)
 
 ## Install
 
